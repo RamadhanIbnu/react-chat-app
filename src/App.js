@@ -8,7 +8,7 @@ const { Search } = Input;
 const { Text } = Typography;
 const { Meta } = Card;
 
-const client = new W3CWebSocket('ws://92de66885752.ngrok.io:8010');
+const client = new W3CWebSocket('ws://8e0d8d791e45.ngrok.io:8010');
 
 export default class App extends Component {
 
