@@ -8,7 +8,7 @@ const { Search } = Input;
 const { Text } = Typography;
 const { Meta } = Card;
 
-const client = new W3CWebSocket('ws://exercise-express-generator.herokuapp.com');
+const client = new W3CWebSocket('wss://exercise-express-generator.herokuapp.com');
 
 export default class App extends Component {
 
